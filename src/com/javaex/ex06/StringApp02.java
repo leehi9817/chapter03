@@ -22,6 +22,7 @@ public class StringApp02 {
 		a = a.replace("ab", "안녕");
 		System.out.println(a);
 		
+		//","을 기준으로 문자열 나누어 배열에 넣기
 		String[] sArray = a.split(",");
 		for(int i=0; i<sArray.length; i++) {
 			System.out.println(sArray[i]);

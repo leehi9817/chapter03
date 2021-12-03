@@ -32,9 +32,14 @@ public class WrapperApp {
 		System.out.println("===================================================");
 		
 		//문자열 --> int
+		//필요없는 변수를 굳이 만들어야하기 때문에 사용하지 않는 방법
+		/*
 		Integer i05 = 10;
 		int r01 = i05.parseInt("12345");
 		System.out.println(r01);
+		*/
+		
+		int r01 = Integer.parseInt("12345");
 		
 		//int --> 문자열
 		/*
