@@ -39,6 +39,8 @@ public class WrapperApp {
 		System.out.println(r01);
 		*/
 		
+		//parseInt메소드가 가 static이기 때문에
+		//이미 메모리에 올라가 있으므로 객체를 만들지 않아도 누구나 접근 가능함
 		int r01 = Integer.parseInt("12345");
 		
 		//int --> 문자열
